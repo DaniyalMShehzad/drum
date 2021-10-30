@@ -1,0 +1,36 @@
+
+.keys{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-image: url("BoohjO.png");
+    background-size: cover;
+    background-position: center;
+}
+.key{
+    border: 4px,solid,rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.753);
+    /* opacity: 0.5; */
+    color: white;
+    border-radius: 10%;
+    margin: 1rem;
+    padding: 1rem,2rem;
+    font-size: 1.5rem;
+    width: 100px;
+    text-align: center;
+    text-shadow: 0 0 5px black;
+    transition: all 0.07s;
+}
+kbd{
+    display: block;
+    font-size: 40px;
+}
+.sound{
+    font-size: 1.2rem;
+    color: yellow;
+}
+.play{
+    transform: scale(1.1);
+    border-color: rgb(rgb(106, 108, 110),);
+    box-shadow: 0 0 10px rgb(91, 189, 0);
+}
